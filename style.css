@@ -145,7 +145,7 @@ body{
 .container2-text{
     float: left;
     margin-left: 50px; 
-    width: 600px;   
+    width: 50%;   
 }
 .container2-text h2{
     margin-top: 65px;
@@ -195,8 +195,11 @@ body{
     text-align: center;
 }
 .container2-img{
-    width: 489px;
+    width: 50%;
     height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .wrappt{
     position: relative;
@@ -207,12 +210,8 @@ body{
     border-radius: 20px 0px;
 }
 .container2-form{
-    margin-top: -25px;
+    margin-top: -70px;
     height: 116px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* background-color: #ff5520; */
 }
 .form{
     display : inline-flex;
